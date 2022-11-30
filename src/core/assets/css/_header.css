@@ -1,0 +1,46 @@
+/* ============================================================================================================== START header css ============= */
+/* ========== start logo css ========== */
+.logo .logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ========== end logo css ========== */
+.header .wrapper {
+  padding: 30px 75px;
+}
+
+.header .menu {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .menu .menu-item {
+  text-transform: capitalize;
+  margin: 0 20px;
+}
+
+.header .menu .menu-item a {
+  font-size: 15px;
+  color: var(--clr-ligh-grey);
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.header .menu .menu-item a:hover {
+  color: var(--clr-dark);
+}
+
+.header .menu .menu-item a.active {
+  color: var(--clr-dark);
+  font-weight: 500;
+}
+
+/* ========== start button search css ========== */
+.header .btn-search {
+  padding: 5px 0 5px 10px;
+  margin-left: 15px;
+}
+
+/* ========== end button search css ========== */
+/* ============================================================================================================== END header css ============= */

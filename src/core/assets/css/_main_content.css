@@ -1,0 +1,192 @@
+/* ============================================================================================================== START author css ============= */
+.main-content .wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================= start post section - post list css ========== */
+
+.main-content .section-content .post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+/* ============================================================= end post section - post list css ========== */
+
+/* ============================================================= start post section title  css ========== */
+.post-section .section-title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.7px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.post-section .section-title::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: var(--clr-dark);
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+/* ============================================================= end post section title  css ========== */
+
+/* ============================================================= start post section - post css ========== */
+.post-section .post .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  overflow: hidden;
+}
+
+.post-section .post .wrapper .col--left {
+  --size: 170px;
+  width: var(--size);
+  height: var(--size);
+  overflow: hidden;
+}
+
+.post-section .post .wrapper .col--left .content-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.post-section .post .wrapper .col--right {
+  flex: 1;
+}
+
+/* ============================================================= end post section - post css ========== */
+/* ============================================================= start post section - post date css ========== */
+
+.post-section .post .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1;
+
+  transition: 0.5s;
+}
+
+.post-section .post .date .day {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* ============================================================= end post section - post date css ========== */
+/* ============================================================= start post section - post date img slide css ========== */
+
+.post-section .post .overlay {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+
+.post-section .post .overlay a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.post-section .post .overlay .thumb {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.post-section .post .overlay img {
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+.post-section .post:hover .overlay {
+  transform: translateY(0);
+}
+
+.post-section .post:hover .date {
+  transform: translateY(100%);
+}
+
+/* ============================================================= end post section - post date img slide css ========== */
+
+/* ============================================================= start post section - post tags css ========== */
+.post-section .post .post__content .tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 15px;
+}
+
+.post-section .post .post__content .tag li a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--clr-dark-pink);
+}
+/* ============================================================= end post section - post tags css ========== */
+
+/* ============================================================= start post section - post title css ========== */
+
+.post-section .post .title {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.53;
+  margin-bottom: 10px;
+}
+
+/* ============================================================= end post section - post title css ========== */
+
+/* ============================================================= start post section - post desc css ========== */
+
+.post-section .post .desc {
+  line-height: 2;
+  margin-bottom: 16px;
+}
+
+/* ============================================================= end post section - post desc css ========== */
+
+/* ============================================================= start post section - post desc css ========== */
+
+.post-section .post a.btn-read-more {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.post-section .post a.btn-read-more:hover {
+  color: var(--clr-dark-pink);
+}
+
+/* ============================================================= end post section - post desc css ========== */
+
+/* ============================================================================================================== END author css ============= */

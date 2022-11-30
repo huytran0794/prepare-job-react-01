@@ -1,0 +1,38 @@
+/* ============================================================================================================== START pagination css ============= */
+.pagination {
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ========== start current-page css ========== */
+.pagination .current-page {
+  color: #000;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+/* ========== end current-page css ========== */
+
+/* ========== start next-page css ========== */
+.pagination .next-page-link {
+  --size: 32px;
+  color: var(--clr-dark);
+  background-color: rgb(243, 243, 243);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  width: var(--size);
+  height: var(--size);
+}
+
+.pagination .next-page-link:hover {
+  color: #fff;
+  background-color: var(--clr-dark-pink);
+}
+/* ========== end next-page css ========== */
+
+/* ============================================================================================================== END pagination css ============= */

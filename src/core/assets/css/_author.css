@@ -1,0 +1,99 @@
+/* ============================================================================================================== START author css ============= */
+
+.author-info .wrapper {
+  width: 940px;
+  max-width: 100%;
+  padding: 150px 10px;
+  margin: 0 auto;
+}
+
+.author-info .wrapper .col--left {
+  width: 270px;
+  height: 270px;
+  flex-basis: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(237, 237, 237);
+}
+
+.author-info .wrapper .col--right {
+  flex: 1;
+  padding-left: 30px;
+}
+
+/* ============================================================= start author image  css ========== */
+.author-info .author-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================= end author image  css ========== */
+
+/* ============================================================= start author image wrapper css ========== */
+.author-info .author-img .img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 16%) 0px 10px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.author-info .author-img .pic {
+  object-fit: cover;
+  max-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ============================================================= end author image wrapper css ========== */
+
+/* ============================================================= start author intro title css ========== */
+
+.author-info .author-intro .title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: var(--sub-f-family);
+  margin-bottom: 20px;
+}
+
+.author-info .author-intro .title {
+  font-size: 30px;
+  font-family: var(--sub-f-family);
+  margin-bottom: 20px;
+}
+
+/* ============================================================= end author intro title css ========== */
+
+/* ============================================================= start author intro desc css ========== */
+
+.author-info .author-intro .description {
+  margin-bottom: 27px;
+  line-height: 32px;
+}
+
+/* ============================================================= end author intro desc css ========== */
+
+/* ============================================================= start author intro social account css ========== */
+.author-info .social-account-list {
+  gap: 20px;
+}
+
+.author-info .social-account a {
+  display: inline-block;
+  font-size: 22px;
+  padding: 3px;
+}
+
+/* ============================================================= end author intro social account css ========== */
+
+/* ============================================================================================================== END author css ============= */
